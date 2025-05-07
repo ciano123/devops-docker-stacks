@@ -1,14 +1,20 @@
-# docker-projects
+# 🐳 devops-docker-stacks
 
 Repositório central com imagens e templates Docker infraestrutura/DevOps. Este repositório contém projetos organizados para padronizar ambientes, automatizar builds e facilitar o deploy de aplicações em containers.
 
 ## 📁 Estrutura do Repositório
 devops-docker-stacks/
+
 ├── base-images/
+
 │ └── php-laravel-base/
+
 ├── templates/
+
 │ ├── example-app/
+
 │ └── app-example/
+
 └── README.md
 
 - **base-images/**: Imagens genéricas reutilizáveis com PHP, Node.js, Apache, etc.
@@ -20,7 +26,7 @@ devops-docker-stacks/
 
 | Projeto | Descrição | Docker Hub |
 |--------|-----------|------------|
-| `php-laravel-base` | Imagem base com PHP 8.4, Node.js 22 e Apache para Laravel 12 | [pmsorg/php-laravel-base](https://hub.docker.com/r/pmsorg/php-laravel-base) |
+| `php-laravel-base` | Imagem base com PHP 8.4, Node.js 22 e Apache para Laravel 12 | [infrasobral/php-laravel-base:latest](https://hub.docker.com/r/infrasobral/php-laravel-base) |
 | `webserver-http` | Template para servidores Apache com configurações customizadas | Em breve |
 
 ---
