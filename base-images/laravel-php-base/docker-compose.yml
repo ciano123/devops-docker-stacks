@@ -1,0 +1,15 @@
+version: '3.6'
+services:
+  app:
+    image: pmsorg/php-laravel-base:1.0
+    network:
+      - your_network
+    ports:
+      - "8080:80"
+    volumes:
+      - ./meu-projeto:/var/www/html
+
+networks:
+  your_network:
+    name: your_network
+    external: true
